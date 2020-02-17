@@ -1,0 +1,12 @@
+command to deploy our functions-
+gcloud functions deploy NAME --runtime nodejs8 --trigger-http
+
+
+
+command to test our cloud function-
+gcloud beta functions describe getRandomQuestion
+
+
+our functions-
+getRandomQuestion
+checkanswer

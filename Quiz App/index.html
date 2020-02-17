@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+      <html>
+        <head>
+        </head>
+        <body>
+          <h1>QUIZ APPLICATION</h1>
+          <h2 style="color: blue;">Vamsi Bhavani Channel</h2>
+          <form name="quizform" action="/checkanswer" method="POST">
+            <input type="hidden" name="id" value="${id}">
+            <p><strong>${title}</strong></p>
+            <select name="answer">
+                <option value="1">${option1}</option>
+                <option value="2">${option2}</option>
+                <option value="3">${option3}</option>
+                <option value="4">${option4}</option>
+            </select>
+            <input name="submit" type="submit"/>
+          </form>
+        </body>
+      </html>
